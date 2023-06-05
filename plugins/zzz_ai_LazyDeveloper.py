@@ -23,11 +23,11 @@ async def lazy_answer(client, message):
                     presence_penalty = 0.0,
                 )
                 btn=[
-                        [InlineKeyboardButton(text=f"⇱🤷‍♀️ Take Action 🗃️⇲", url=f'https://t.me/{temp.U_NAME}')],
-                        [InlineKeyboardButton(text=f"🗑 Delete log ❌", callback_data=f'close_data')],
+                        [InlineKeyboardButton(text=f"⇱🤷‍♀️ 𝖳𝖺𝗄𝖾 𝖠𝖼𝗍𝗂𝗈𝗇 🗃️⇲", url=f'https://t.me/{temp.U_NAME}')],
+                        [InlineKeyboardButton(text=f"🗑 𝖣𝖾𝗅𝖾𝗍𝖾 𝖫𝗈𝗀 ❌", callback_data=f'close_data')],
                     ]
                 reply_markup=InlineKeyboardMarkup(btn)
-                footer_credit = "🦋<a href='https://telegram.me/LazyDeveloperSupport'>• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •</a>══<a href='https://telegram.me/LazyDeveloperr'>• ᴄᴏɴᴛᴀᴄᴛ ᴍᴀꜱᴛᴇʀ •</a>🦋"
+                footer_credit = "🦋<a href='https://telegram.me/LazyDeveloperSupport'>• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •</a>══<a href='https://telegram.me/k_ASTRA1'>• ᴄᴏɴᴛᴀᴄᴛ ᴍᴀꜱᴛᴇʀ •</a>🦋"
                 lazy_response = response.choices[0].text 
                 await client.send_message(LAZY_AI_LOGS, text=f"⚡️⚡️#Lazy_AI_Query \n\n• A user named **{message.from_user.mention}** with user id - `{user_id}`. Asked me this query...\n\n══❚█══Q   U   E   R   Y══█❚══\n\n\n[Q྿.]**{lazy_users_message}**\n\n👇Here is what i responded:\n:-`{lazy_response}`\n\n\n❚═USER ID═❚═• `{user_id}` \n❚═USER Name═❚═• `{message.from_user.mention}` \n\n🗃️" , reply_markup = reply_markup )
                 await message.reply(f"{lazy_response}\n\n\n{footer_credit}")
@@ -69,7 +69,7 @@ async def lazy_answer(client, message):
 
 
         # i am NOT INTRESTED IN BEING YOUR SECOND FATHER... SO DON'T REMOVE MY CREDIT...
-        #                               @LazyDeveloperr
+        #                               @k_ASTRA1
 
 
 
@@ -84,7 +84,7 @@ async def lazy_answer(client, message):
         #                                        ...PRESENTING...
         #                          A R T I F i C I A L  -  I N T E L i G E N C E
         #                                      .in  Auto-Filter-Bot.
-        #                                         @LazyDeveloperr
+        #                                         @k_ASTRA1
 
                                       
 
